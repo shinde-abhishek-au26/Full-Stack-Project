@@ -1,0 +1,25 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "The personal note taking app is created using both frontend and backend.",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "heroku-prebuild": "cd frontend && npm install && npm run build && cd .. && cd backend && npm install",
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/backend-project-kumar-sravan-au17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attainu/backend-project-kumar-sravan-au17/issues"
+  },
+  "homepage": "https://github.com/attainu/backend-project-kumar-sravan-au17#readme"
+}
